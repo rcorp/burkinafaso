@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+*{
+	margin:0px;
+	padding:0px;
+	position: relative;
+}
+body.wrapper 
+{
+    width: 1110px;
+    margin: 0	 auto;
+}
+div.header
+{
+padding-top: 3px;
+top: 8px;
+left: 0px;
+width: 1024px;
+height: 30px;
+background-color: #FF0000;
+position: relative;
+}
+td.navig1
+{
+	text-align: center;
+	width: 100px;
+	font-size: 17px;
+	font-style: italic;
+}
+
+a.header1:link 
+{
+color:#FFFFFF;
+text-decoration:none;
+
+}
+a.header1:visited 
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+a.header1:hover 
+{
+color:#FFFFFF;
+text-decoration:none;
+
+}
+a.header1:active 
+{
+color:#FFFFFF;
+text-decoration:none;
+
+}
+div.img
+{
+top: 14px;
+left: 0px;
+position: relative;
+height: 150px;
+width: 1024px;
+}
+div.navig
+{
+top: 25px;
+left: 0px;
+position: relative;
+width: 1024px;
+height: 30px;
+text-align: center;
+background-color: #009A00;
+}
+td.navig
+{
+	text-align: center;
+	width: 200px;
+	font-size: 20px;
+	font-style: italic;
+	font-weight: bold;
+}
+a.navig:link 
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+a.navig:visited 
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+a.navig:hover 
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+a.navig:active 
+{
+color:#FFFFFF;
+text-decoration:none;
+}
+div.news
+{
+position: relative;
+left: 0px;
+top: 44px;
+padding-top: 8px;
+width: 100%;
+height: 210px;
+}
+div.news1
+{
+	padding-top: 8px;
+padding-left: 11px;
+top: 0px;
+left: 0px;
+position: relative;
+width: 535px;
+height: 200px;
+float: left;
+}
+div.newsimg
+{
+	width: 230px;
+	height: 200px;
+	float: left;
+}
+div.newscont
+{
+	width: 300px;
+	height: 200px;
+	float: left;
+	text-align: left;
+
+}
+div.galry
+{
+top: 30px;
+left: 0px;
+height: 250px;
+width: 1024px;
+text-align: center;
+position: relative;
+}
+div.infobar
+{
+	clear: both;
+	position: relative;
+height: 0;
+width: 950px;
+border-bottom: 30px solid #009A00;
+border-left: 45px solid transparent;
+border-right: 45px solid transparent;
+color: white;
+font-size: 25px;
+left: -4px;
+top: 37px;
+}
+h4
+{
+color:#009A00;
+}
+div.cellbox
+{
+	left: 2px;
+	top: 58px;
+	position: relative;
+}
+div.cell
+{
+	margin-top: 1px;
+background-color: #AAAAFF;
+height: 115px;
+width: 505px;
+padding: 10px;
+float: left;
+margin-bottom: 15px;
+margin-right: 15px;
+vertical-align: middle;
+}
+div.cell1
+{
+float: left;
+width: 100px;
+height: 100px;
+padding-right: 11px;
+padding-top: 8px;
+}
+div.cell2box
+{
+	float: left;
+width: 380px;
+height: auto;
+}
+span.cell2
+{
+font-weight: bold;
+height: auto;
+width: 135px;
+color: #009A00;
+font-size: 15px;
+display: block;
+float: left;
+font-style: italic;
+}
+
+span.cell3
+{
+	text-align: right;
+font-size: 15px;
+width: 245px;
+display: block;
+float: left;	
+}
+div.gallbox
+{
+	left: -15px;
+	top: 97px;
+	position: relative;
+	width: 100%;
+	height: auto;
+
+}
+div.gall
+{
+margin: 1px;
+float: left;
+border-bottom: 180px solid #009A00;
+border-left: 35px solid transparent;
+border-right: 35px solid transparent;
+height: 0;
+width: 150px;
+font-size: 20px;
+color: white;
+text-align: center;
+-webkit-transform: rotate(90deg);
+top: 0px;
+left: 0px;
+position: relative;
+}
+div.footer
+{
+clear: both;
+background-color: #000000;
+width: 1110px;
+height: 250px;top: 155px;
+left: 0px;
+position: relative;
+}
+div.footer1
+{
+	width: 100%;
+	padding-top: 6px;
+	font-size:30px;
+	color:#FFFFFF;
+}
+div.footer2
+{
+float:left;
+width:223px;
+height: 160px;
+margin:0 0 0 0;
+padding-left: 25px;
+padding-top: 19px;
+padding-right: 14px;
+}
+p.footer3
+{
+	color: #FFFFFF;
+
+}
+table.footer3
+{
+	color: #FFFFFF;
+	font-style: italic;
+	font-size: 13px;
+	padding-left: 10px;
+}
+td.footerright
+{
+	text-align: right;
+}
+</style>
+</head>
+<body class="wrapper">
+<div class="header">
+	<table>
+		<tr>
+			<td class="navig1"><a class="header1" href="index.html">home</a></td>
+			<td class="navig1"></td>
+			<td class="navig1"></td>
+			<td class="navig1"></td>
+			<td class="navig1"></td>
+			<td class="navig1"></td>
+			<td class="navig1"><a class="header1" href="contactus.html">contact us</a></td>
+			<td class="navig1"><a class="header1" href="email.html">email</a></td>
+			<td class="navig1"><a class="header1" href="facebook.html">facebook</a></td>
+		</tr>
+	</table>
+</div>
+<div class="img">
+<img src="header.jpg" alt="HEADER IMG" width=100% height=100%>
+</div>
+<div class="navig">
+	<table>
+		<tr>
+			<td class="navig"><a class="navig" href="index.html"> home </a></td>
+			<td class="navig"><a class="navig" href="aboutus.html"> about us </a></td>
+			<td class="navig"><a class="navig" href="ambassador.html"> the ambassador </a></td>
+			<td class="navig"><a class="navig" href="news&events.html"> news & events </a></td>
+			<td class="navig"><a class="navig" href="consularservice.html"> consular service </a></td>
+			<td class="navig"><a class="navig" href="e-bulletin.html"> e-bulletin </a></td>
+		</tr>
+	</table>
+</div>
+<div class="galry">
+<img src="headerimg.jpg" alt="Image" width=100% height=100%>
+</div>
+<div class="infobar">
+&nbsp;&nbsp;>&nbsp;<i>Latest News</i>&nbsp;&nbsp;
+</div>
+<div class="news">
+	<div class="news1">
+		<div class="newsimg">
+			<img src="contimg1.jpg" width=200px height=150px>
+		</div>
+
+		<div class="newscont">
+			<h4>Embassy participates in IETF 2013</h4>
+			<p>The Embassy of Burkina Faso participated in 20th edition of International Engineering & Technology Fair (IETF 2013) which was held at the Pragati Maidan New Delhi from 15-17 February 2013 and inaugurated by President of India Mr. Pranab Mukherjee.</p>
+
+		</div>
+		<a href="readmore.html" style="left: 442px; bottom: 79px;">Read More</a>
+	</div>
+
+	<div class="news1">
+		<div class="newsimg">
+			<img src="contimg2.jpg" width=200px height=150px>
+		</div>
+
+		<div class="newscont">
+			<h4>State Council announces the final result of the municipal elections.</h4>
+			<p>On March 1, 2013 the State Council announced the results of the Municipal Elections which were held on February 17, 2013. The Congress for Democracy and Progress (CDP), tertains a clear majority with 12,363 seats out of a total of 18,527 seats.</p>
+
+		</div>
+		<a href="readmore.html" style="left: 454px; bottom: 60px;">Read More</a>
+	</div>
+
+</div>
+<div class="infobar">
+&nbsp;&nbsp;>&nbsp;<i>From the Business Directory</i>&nbsp;&nbsp;
+</div>
+<div class="cellbox">
+		<div class="cell">
+				<div class="cell1">
+					<img src="rcorp.jpg" width="100px" height="100px">
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Company Name</span> <span class="cell3"> RCorp</span>
+				</div>	
+				
+				<div class="cell2box">
+					<span class="cell2">Country of Origin</span> <span class="cell3">India</span>
+				</div>
+				
+				<div class="cell2box">
+					<span class="cell2">Business Type</span><span class="cell3">Technology</span>
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Produsts & Services</span>  <span class="cell3">Web Solutions, ERP, Cloud Computing</span>
+				</div>
+
+				<div class="cell2box"`>
+					<span class="cell2">Areas Served</span>  <span class="cell3">India, Africa</span>
+				</div>
+				
+		</div>
+
+		<div class="cell">
+				<div class="cell1">
+				<img src="endvr.jpg" width="100px" height="100px">
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Company Name</span> <span class="cell3">Endeavour Mining</span>
+				</div>	
+				
+				<div class="cell2box">
+					<span class="cell2">Country of Origin</span> <span class="cell3">Cayman Islands</span>
+				</div>
+				
+				<div class="cell2box">
+					<span class="cell2">Business Type</span><span class="cell3">Gold Mines</span>
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Produsts & Services</span>  <span class="cell3">Mining</span>
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Areas Served</span>  <span class="cell3">Burkina Faso, Ghana, Mali</span>
+				</div>
+					
+		</div>
+
+		<div class="cell">
+				<div class="cell1">
+					<img src="comazar.jpg" width="100px" height="100px">
+				</div>
+				
+				<div class="cell2box">
+					<span class="cell2">Company Name</span> <span class="cell3">Comazar</span>
+				</div>	
+				
+				<div class="cell2box">
+					<span class="cell2">Country of Origin</span> <span class="cell3">South Africa</span>
+				</div>
+				
+				<div class="cell2box">
+					<span class="cell2">Business Type</span><span class="cell3">Railways</span>
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Produsts & Services</span>  <span class="cell3">Railway Operations</span>
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Areas Served</span>  <span class="cell3">Burkina Faso, Cameroon, Madagascar</span>
+				</div>
+			
+		</div>
+
+		<div class="cell">
+				<div class="cell1">
+					<img src="rcorp.jpg" width=100px height=100px>
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Company Name</span> <span class="cell3"> RCorp</span>
+				</div>	
+				
+				<div class="cell2box">
+					<span class="cell2">Country of Origin</span> <span class="cell3">India</span>
+				</div>
+				
+				<div class="cell2box">
+					<span class="cell2">Business Type</span><span class="cell3">Technology</span>
+				</div>
+
+				<div class="cell2box">
+					<span class="cell2">Produsts & Services</span>  <span class="cell3">Web Solutions, ERP, Cloud Computing</span>
+				</div>
+
+				<div class="cell2box"`>
+					<span class="cell2">Areas Served</span>  <span class="cell3">India, Africa</span>
+				</div>
+				
+		</div>
+
+</div>
+<div style="clear: both;">&nbsp;</div>
+<div class="gallbox">
+
+	<div class="gall">
+	<p style="-webkit-transform: rotate(-83deg);right: 80px;bottom: -77px;font-size: 16px;">People</p>
+<img src="img1.png" style="
+    -webkit-transform: rotate(-90deg);
+    height: 152px;
+    right: 17px;
+    bottom: 12px;
+    width: 194px;
+"></div>
+<div class="gall">
+	<p style="-webkit-transform: rotate(-83deg);right: 79px;bottom: -77px;font-size: 16px;">Politics</p>
+<img src="img3.png" style="
+    -webkit-transform: rotate(-90deg);
+    height: 152px;
+    right: 9px;
+    bottom: 5px;
+    width: 182px;
+"></div>
+<div class="gall">
+	<p style="-webkit-transform: rotate(-83deg);right: 80px;bottom: -77px;font-size: 16px;">Business</p>
+<img src="img4.png" style="
+    -webkit-transform: rotate(-90deg);
+    height: 156px;
+    right: 7px;
+    bottom: 8px;
+    width: 179px;
+"></div>
+<div class="gall">
+	<p style="-webkit-transform: rotate(-83deg);right: 77px;bottom: -77px;font-size: 16px;">The Embassy</p>
+<img src="img5.png" style="
+    -webkit-transform: rotate(-90deg);
+    height: 152px;
+    right: 9px;
+    bottom: 5px;
+    width: 181px;
+"></div>
+<div class="gall">
+	<p style="-webkit-transform: rotate(-83deg);right: 77px;bottom: -77px;font-size: 16px;">Politics</p>
+<img src="img3.png" style="
+    -webkit-transform: rotate(-90deg);
+    height: 152px;
+    right: 9px;
+    bottom: 5px;
+    width: 182px;
+"></div>
+</div>
+<div style="clear:both;"></div>
+<div class="footer">
+	<div class="footer1" align="center"><i>The land of Honest People...</i></div></br>
+	<div class="footer2"><img src="flag1.jpg"></div>
+	<p class="footer3" ></br></br>&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:#00FF00; font-size:20px;"><i>Indian Embassy</i></span></br></p>
+	<table class="footer3">
+		<tr>
+			<td width=200px>Address</td>
+			<td class="footerright" >F2/4 Vasant Vihar, New Delhi-110057</td>
+		</tr>
+		<tr>
+			<td width=200px>Telephone</td>
+			<td class="footerright" >+91 11 26140641/42</td>
+		</tr>
+		<tr>
+			<td width=200px>Fax</td>
+			<td class="footerright" >+91 11 26140630</td>
+		</tr>
+		<tr>
+			<td width=200px>Email to</td>
+			<td class="footerright" >embassy@burkinafasoindia.org</td>
+		</tr>
+		<tr>
+			<td width=200px>Website</td>
+			<td class="footerright" >www.burkinafasoindia.org</td>
+		</tr>
+
+	</table>
+</div>
+</body>
+</html>
